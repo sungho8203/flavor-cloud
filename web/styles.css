@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav {
+    background-color: #444; /* 배경 색상 조정 */
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0; /* 기본 여백 제거 */
+    display: flex; /* Flexbox로 설정하여 수평 정렬 */
+    justify-content: center; /* 중앙 정렬 */
+}
+
+nav ul li {
+    margin: 0 20px; /* 항목 간의 여백 */
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold; /* 글씨 두껍게 */
+    font-size: 14px; /* 글씨 크기 조정 */
+    transition: color 0.3s; /* 마우스 오버 시 색상 전환 효과 */
+}
+
+nav ul li a:hover {
+    color: #ffcc00; /* 마우스 오버 시 색상 변경 */
+}
+
+main {
+    padding: 20px;
+}
+
+.product {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 15px 0;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
